@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bigblue {
+  color: DodgerBlue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
 }
