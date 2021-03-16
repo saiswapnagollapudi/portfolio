@@ -25,10 +25,10 @@ class Projects extends Component {
     }}>
       <h2  style={center_style}> Projects </h2>
       <div>
-      <div onclick="location.href='neuralsttyletransfer.herokuapp.com';"style = {textshadow,divStyle}><b style={center_style}>Neural Style Transfer application</b>
+      <div style = {textshadow,divStyle}><b style={center_style}><a href='neuralsttyletransfer.herokuapp.com'>Neural Style Transfer application</a></b>
          <br />Built and deployed a neural style transfer application using google cloud platform.
          </div><br />
-     <div onclick="location.href='https://github.com/swapsha/NeuralCook/blob/master/NeuralCook.pdf';"style = {textshadow,divStyle}><b style={center_style}>Neural Style Transfer application</b>
+     <div style = {textshadow,divStyle}><b style={center_style}><a href='https://github.com/swapsha/NeuralCook/blob/master/NeuralCook.pdf'Neural Style Transfer application</a></b>
         <br />Built application to identify ingredients from cooking dishes images and recommend dishes for given ingredients.
         </div><br />
       <div style = {textshadow,divStyle}><b style={center_style}>Unsupervised Topic Modeling on News dataset</b>
