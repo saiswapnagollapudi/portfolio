@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/home'
 import Projects from './components/projects'
 import Experience from './components/experience'
+import Resume from './components/resume'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class App extends Component {
@@ -21,10 +22,13 @@ class App extends Component {
       <Link to={'/'} style={{textDecoration: 'none',color:'white'}}><b>Home</b></Link>
       <Link to={'/projects'} style={{paddingLeft: 100 , textDecoration: 'none',color:'white'}}><b>Projects</b></Link>
       <Link to={'/experience'} style={{paddingLeft: 100 , textDecoration: 'none',color:'white'}} className="navbar-brand"><b>Experience</b></Link>
+      <Link to={'/resume'} style={{paddingLeft: 100 , textDecoration: 'none',color:'white'}} className="navbar-brand"><b>Resume</b></Link>
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/my_portfolio" exact component={Home} />
         <Route path="/projects" exact component={ Projects} />
-        <Route path="/Experience" exact component={ Experience } />
+        <Route path="/experience" exact component={ Experience } />
+        <Route path="/resume" exact component={ Resume } />
       </Switch>
       </div>
       </Router>
